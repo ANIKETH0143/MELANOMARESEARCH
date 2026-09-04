@@ -1,0 +1,10 @@
+Finding,Status,Interpretation
+CNN-Transformer novelty alone,Rejected,Already common in recent literature
+Three-dataset evaluation alone,Rejected,Already common in recent literature
+External validation alone,Rejected,Already established
+XAI alone,Rejected,Already established
+Fairness alone,Rejected,Already established
+Uncertainty/calibration alone,Rejected,Already established
+Integrated responsible-AI pipeline,Potential gap,Needs direct competitor verification
+Segmentation + classification + XAI + fairness + uncertainty,Potential gap,Needs direct competitor verification
+Full combination with external validation + ablation + statistics,Potential gap,Final novelty audit required

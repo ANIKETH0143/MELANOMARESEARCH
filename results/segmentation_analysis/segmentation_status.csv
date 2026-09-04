@@ -1,0 +1,2 @@
+Component,Training_Images,Validation_Images,Image_Size,Architecture,Loss,Optimizer,Learning_Rate,Full_Training_Completed,Forward_Pass_Verified,Backward_Pass_Verified,Segmentation_Metrics_Reported,Status
+ISIC2018 U-Net Segmentation,2594,100,224x224,Standard U-Net,Dice + BCE,Adam,0.0001,False,True,True,False,Pipeline verified; full CPU training deferred due to runtime

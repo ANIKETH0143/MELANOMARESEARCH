@@ -1,0 +1,35 @@
+Component,Specification
+Model_Name,DermaFair-XFormer
+Input_Size,224x224x3
+Input,Lesion-focused RGB image generated from the existing preprocessing/segmentation pipeline
+CNN_Backbone,ConvNeXt-Tiny
+CNN_Output,Local lesion texture and fine-grained feature representation
+Transformer_Backbone,Swin Transformer-Tiny
+Transformer_Output,Global contextual and long-range feature representation
+Lesion_Guidance,U-Net lesion mask used to generate lesion-aware feature weighting
+Fusion,Concatenate projected CNN and Transformer representations followed by learned fusion layer
+Fusion_Dimension,512
+Attention,Lesion-aware attention applied to fused representation
+Classifier,Multi-layer classification head with dropout followed by seven-class softmax
+HAM10000_Classes,akiec;bcc;bkl;df;mel;nv;vasc
+ISIC2018_Classes,AKIEC;BCC;BKL;DF;MEL;NV;VASC
+PH2_Classes,common_nevus;atypical_nevus;melanoma
+Base_Loss,Weighted multi-class cross-entropy
+Fairness_Loss,Absolute difference in mean predicted melanoma probability between male and female HAM10000 samples
+Total_Loss,L_total = L_weighted_CE + lambda_fair * L_fair
+Fairness_Lambda_Candidates,0.001;0.005;0.01
+Uncertainty,Post-hoc temperature scaling using validation data only
+Explainability,Grad-CAM;SHAP;LIME;Transformer attention visualization
+Primary_Evaluation,Accuracy;Precision;Sensitivity;Specificity;F1;ROC-AUC;PR-AUC
+Fairness_Evaluation,Sensitivity;Specificity;FPR;FNR;F1;ROC-AUC by sex and age group on HAM10000
+Calibration_Evaluation,ECE;Brier Score;NLL;Reliability diagram
+External_Validation,PH2 independent external test
+Statistical_Evaluation,AUC confidence intervals and appropriate paired statistical comparison
+Ablation_1,CNN-only
+Ablation_2,Transformer-only
+Ablation_3,CNN + Transformer fusion
+Ablation_4,CNN + Transformer + lesion-aware attention
+Ablation_5,CNN + Transformer + lesion-aware attention + fairness
+Ablation_6,Full model + uncertainty calibration
+Novelty_Position,Integrated lesion-aware trustworthy classification framework; CNN-Transformer fusion itself is not claimed as novel
+Roadmap_Status,Architecture specification only

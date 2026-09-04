@@ -1,0 +1,17 @@
+Roadmap_Component,Scope,Status,Evidence_Status
+Dataset preparation,"HAM10000, ISIC2018, PH2",Completed,Verified
+Five benchmark models,"DenseNet121, ResNet101, EfficientNetV2, ConvNeXt, Swin",Completed,Verified
+Baseline evaluation,15 dataset-model experiments,Completed,Verified
+PH2 detailed evaluation,Five baseline models,Completed,Verified
+PH2 Swin optimization,Class-weighted AdamW + early stopping,Completed,Verified
+PH2 error analysis,30 test samples,Completed,Verified
+ISIC2018 U-Net implementation,Standard U-Net,Completed,Implementation verified
+ISIC2018 segmentation training,Dice + BCE,Deferred,Not experimentally completed
+DermaFair-XFormer architecture,ConvNeXt-Tiny + Swin-Tiny + fusion + lesion attention,Completed,Architecture verified
+DermaFair-XFormer training,Sixth model,Deferred,Not experimentally completed
+Explainability,"Grad-CAM, SHAP, LIME, attention",Pending,Not experimentally completed
+Fairness,HAM10000 sex/age subgroup analysis,Protocol completed,Not experimentally completed
+Uncertainty,"Temperature scaling, ECE, Brier, NLL",Protocol completed,Not experimentally completed
+Ablation,Six planned variants,Pending,Not experimentally completed
+Statistical testing,AUC confidence intervals and paired comparison,Pending,Not experimentally completed
+External validation,PH2 independent evaluation protocol,Partially completed,PH2 benchmark results available

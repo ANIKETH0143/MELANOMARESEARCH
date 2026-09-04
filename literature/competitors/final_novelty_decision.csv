@@ -1,0 +1,7 @@
+Decision_Area,Evidence,Novelty_Status,Reason
+CNN + Transformer,Established,Not sufficient alone,Both CNN and Transformer components are common across the verified competitors.
+Three-dataset evaluation,Established,Not sufficient alone,Multi-dataset evaluation is already common in the verified literature.
+Ablation study,Established,Not sufficient alone,Ablation is already reported by many verified competitors.
+Segmentation + XAI + Fairness + Uncertainty + External Validation + Statistical Testing,No full integration found,Potential integrated research gap,No verified competitor in the 15-paper matrix has Yes across all six target dimensions.
+Clinical/trustworthy evaluation,Emerging rapidly,Requires rigorous implementation,"Recent 2025-2026 work demonstrates increasing emphasis on fairness, uncertainty, XAI and human evaluation."
+Proposed sixth model,Not yet finalized,Architecture must be defined next,"Novelty should come from the validated integration and experimental design, not from claiming a new CNN-Transformer combination alone."

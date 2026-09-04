@@ -1,0 +1,10 @@
+image,image_path,true_label,true_class,predicted_label,predicted_class,confidence,correct,error_type
+IMD405,data\raw\PH2Dataset\PH2 Dataset images\IMD405\IMD405_Dermoscopic_Image\IMD405.bmp,2,melanoma,1,atypical_nevus,0.6075128316879272,False,melanoma -> atypical_nevus
+IMD152,data\raw\PH2Dataset\PH2 Dataset images\IMD152\IMD152_Dermoscopic_Image\IMD152.bmp,0,common_nevus,1,atypical_nevus,0.6057659387588501,False,common_nevus -> atypical_nevus
+IMD398,data\raw\PH2Dataset\PH2 Dataset images\IMD398\IMD398_Dermoscopic_Image\IMD398.bmp,1,atypical_nevus,0,common_nevus,0.5992138385772705,False,atypical_nevus -> common_nevus
+IMD436,data\raw\PH2Dataset\PH2 Dataset images\IMD436\IMD436_Dermoscopic_Image\IMD436.bmp,1,atypical_nevus,0,common_nevus,0.5836299061775208,False,atypical_nevus -> common_nevus
+IMD040,data\raw\PH2Dataset\PH2 Dataset images\IMD040\IMD040_Dermoscopic_Image\IMD040.bmp,1,atypical_nevus,0,common_nevus,0.5822521448135376,False,atypical_nevus -> common_nevus
+IMD429,data\raw\PH2Dataset\PH2 Dataset images\IMD429\IMD429_Dermoscopic_Image\IMD429.bmp,2,melanoma,1,atypical_nevus,0.5552735924720764,False,melanoma -> atypical_nevus
+IMD226,data\raw\PH2Dataset\PH2 Dataset images\IMD226\IMD226_Dermoscopic_Image\IMD226.bmp,1,atypical_nevus,0,common_nevus,0.5193949937820435,False,atypical_nevus -> common_nevus
+IMD376,data\raw\PH2Dataset\PH2 Dataset images\IMD376\IMD376_Dermoscopic_Image\IMD376.bmp,1,atypical_nevus,0,common_nevus,0.5111671090126038,False,atypical_nevus -> common_nevus
+IMD076,data\raw\PH2Dataset\PH2 Dataset images\IMD076\IMD076_Dermoscopic_Image\IMD076.bmp,1,atypical_nevus,0,common_nevus,0.4818870723247528,False,atypical_nevus -> common_nevus

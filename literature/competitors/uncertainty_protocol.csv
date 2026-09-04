@@ -1,0 +1,15 @@
+Component,Definition
+Uncertainty_Type,Predictive uncertainty from calibrated class probabilities
+Base_Probability,Softmax class probabilities
+Calibration_Method,Post-hoc temperature scaling
+Calibration_Data,Validation set only
+Test_Set_Tuning,Forbidden
+Temperature_Fitting,Validation negative log-likelihood minimization
+Primary_Uncertainty_Metrics,ECE;Brier Score;NLL
+Secondary_Uncertainty_Analysis,Confidence versus correctness;Reliability diagram
+Confidence_Definition,Maximum calibrated class probability
+Uncertainty_Definition,1 - maximum calibrated class probability
+Model_Selection,Validation macro-F1 with calibration metrics monitored
+Final_Evaluation,Uncalibrated and calibrated predictions reported separately
+External_Test,PH2 remains untouched until final evaluation
+Interpretation,Lower ECE/Brier/NLL indicates improved calibration; confidence alone is not treated as uncertainty quality

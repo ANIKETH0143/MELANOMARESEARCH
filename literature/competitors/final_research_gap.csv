@@ -1,0 +1,11 @@
+Feature,Confirmed,Partial_or_Confirmed,Unknown,Total,Confirmed_Percent,Interpretation
+Segmentation,3,3,0,15,20.0,Potential differentiating area — requires integrated evidence
+CNN,12,13,0,15,80.0,Established area — not sufficient alone for novelty
+Transformer,10,12,0,15,66.7,Established area — not sufficient alone for novelty
+XAI,4,4,4,15,26.7,Potential differentiating area — requires integrated evidence
+Fairness,3,3,6,15,20.0,Potential differentiating area — requires integrated evidence
+Uncertainty,4,4,6,15,26.7,Potential differentiating area — requires integrated evidence
+Three_Datasets,11,12,2,15,73.3,Established area — not sufficient alone for novelty
+External_Validation,6,6,6,15,40.0,Potential differentiating area — requires integrated evidence
+Statistical_Testing,6,6,9,15,40.0,Potential differentiating area — requires integrated evidence
+Ablation,10,10,5,15,66.7,Established area — not sufficient alone for novelty

@@ -1,0 +1,3 @@
+Paper,Year,Segmentation,CNN,Transformer,XAI,Fairness,Uncertainty,Three_Datasets,External_Validation,Statistical_Testing,Ablation,Direct_Classification_Competitor,Relevance_to_Our_Framework,Novelty_Risk
+CTH-Net,2024,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,High,Medium
+VGG19-RSPDA-ViT,2025,No,Yes,Yes,No,No,No,Yes,No,Not established,Not established,Yes,Very High,Very High

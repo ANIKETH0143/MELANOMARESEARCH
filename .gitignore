@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.melanoma_research/
+.ipynb_checkpoints/
+
+# Raw / large datasets
+DATA/RAW/
+data/RAW/
+DATA/raw/
+data/raw/
+
+# Trained model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Large generated artifacts
+*.zip
+*.tar
+*.tar.gz
+
+# Local Excel / temporary files
+HAM10000_model_performance.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Raw datasets (never commit)
+DATA/RAW/

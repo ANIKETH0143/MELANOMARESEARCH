@@ -1,0 +1,4 @@
+error_type,count
+atypical_nevus -> common_nevus,6
+melanoma -> atypical_nevus,2
+common_nevus -> atypical_nevus,1

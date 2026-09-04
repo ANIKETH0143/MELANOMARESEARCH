@@ -1,0 +1,14 @@
+Component,Definition
+Base_Loss,Weighted multi-class cross-entropy
+Fairness_Target,HAM10000 male-vs-female subgroup parity
+Training_Fairness, differentiable subgroup fairness surrogate
+Validation_Fairness, subgroup sensitivity/FNR/FPR gap monitoring
+Test_Fairness,Sensitivity;Specificity;FPR;FNR;F1;ROC-AUC by subgroup
+Gap_Definition,Maximum subgroup difference between male and female
+Total_Loss,L_total = L_CE + lambda_fair * L_fair
+Lambda_Fair,Hyperparameter selected using validation data only
+Age_Fairness,Secondary post-hoc subgroup analysis using 0-39;40-59;60-85
+Unknown_Sex,Excluded from subgroup fairness calculations but retained for overall evaluation
+Missing_Age,Excluded from age subgroup calculations but retained for overall evaluation
+No_Test_Set_Tuning,True
+No_NonDifferentiable_Backprop,True

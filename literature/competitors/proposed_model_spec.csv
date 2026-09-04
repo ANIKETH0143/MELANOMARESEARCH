@@ -1,0 +1,18 @@
+Model Name,DermaFair-XFormer
+Task,Multi-class skin lesion classification
+Backbone,CNN branch + Transformer branch
+Input,Lesion-focused preprocessed RGB image
+CNN Branch,Local texture and fine-grained lesion feature extraction
+Transformer Branch,Global contextual and long-range feature modeling
+Fusion,Feature-level complementary CNN-Transformer fusion
+Lesion Awareness,Lesion-guided attention using the segmentation output
+Fairness,Fairness-aware training objective using available subgroup information where supported
+Uncertainty,Post-hoc calibrated predictive uncertainty with validation-based calibration
+Explainability,Grad-CAM + SHAP + LIME + attention visualization
+Primary Loss,Classification loss + lesion-aware/fairness-aware objective
+Evaluation,Accuracy Precision Sensitivity Specificity F1 ROC-AUC PR-AUC
+Trustworthiness,Fairness metrics + calibration metrics + uncertainty analysis
+Validation,Dataset-specific evaluation + independent PH2 external validation
+Statistics,AUC confidence intervals + appropriate paired statistical comparison
+Ablation,CNN-only / Transformer-only / Fusion / + Lesion Attention / + Fairness / + Uncertainty
+Novelty Claim,Integrated trustworthy melanoma classification framework rather than CNN-Transformer fusion alone

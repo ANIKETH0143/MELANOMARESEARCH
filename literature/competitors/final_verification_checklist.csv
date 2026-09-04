@@ -1,0 +1,16 @@
+Rank,Paper,Verify_Title,Verify_Year,Verify_DOI,Verify_Datasets,Verify_Architecture,Verify_Segmentation,Verify_XAI,Verify_Fairness,Verify_Uncertainty,Verify_External_Validation,Verify_Statistics,Verify_Ablation,Direct_Competitor,Notes
+1,VGG19-RSPDA-ViT,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+2,CTH-Net,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,No,Final verification required
+3,Hybrid ViT-GNN with RAA,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+4,Semi-supervised GAN hybrid melanoma detection,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+5,MultiExCam,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+6,EnsembleSkinNet,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+7,Conformal fairness foundation model,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+8,Unified ARP-ViT-CNN,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+9,CNN-Transformer skin lesion classification,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+10,Skin tone bias segmentation study,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,No,Final verification required
+11,Foundation-model clinical dermatology study,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+12,Fairness systematic review meta-analysis,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,No,Background evidence
+13,Uncertainty OOD skin lesion study,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+14,XAI clinical dermatologist evaluation,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Final verification required
+15,Uncertainty-aware explainable ensemble 2026,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Pending,Yes,Very recent competitor

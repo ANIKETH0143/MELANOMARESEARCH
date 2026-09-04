@@ -1,0 +1,9 @@
+Search_Batch,Search_Theme,Target_Years,Priority,Status
+1,CNN-Transformer hybrid melanoma classification,2024-2026,High,Pending verification
+2,Vision Transformer melanoma classification,2024-2026,High,Pending verification
+3,Explainable melanoma deep learning,2024-2026,High,Pending verification
+4,Fairness skin lesion AI,2024-2026,High,Pending verification
+5,Uncertainty/calibration skin lesion AI,2024-2026,High,Pending verification
+6,External validation melanoma AI,2024-2026,High,Pending verification
+7,Skin lesion segmentation deep learning,2024-2026,Medium,Pending verification
+8,Multi-dataset melanoma classification,2024-2026,High,Pending verification

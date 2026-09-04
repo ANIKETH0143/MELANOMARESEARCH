@@ -1,0 +1,16 @@
+Rank,Paper,Year,Segmentation,CNN,Transformer,XAI,Fairness,Uncertainty,Three_Datasets,External_Validation,Statistical_Testing,Ablation,Closest_Overlap,Novelty_Risk
+1,VGG19-RSPDA-ViT,2025,No,Yes,Yes,No,No,No,Yes,No,Not established,Not established,CNN-Transformer + HAM10000 + PH2,Very High
+2,CTH-Net,2024,Yes,Yes,Yes,No,No,No,Yes,No,Not established,Yes,CNN-Transformer + segmentation + PH2,High
+3,Hybrid ViT-GNN with RAA,2026,No,No,Yes,No,No,No,Yes,Yes,Not established,Not established,Transformer + three datasets + PH2,High
+4,Semi-supervised GAN hybrid melanoma detection,2025,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Multi-dataset + PH2 external validation,High
+5,MultiExCam,2025,No,Yes,Yes,Yes,No,No,Yes,Not established,Not established,Yes,CNN-Transformer + XAI + three datasets,High
+6,EnsembleSkinNet,2025,No,Yes,No,Yes,No,No,Yes,Yes,Yes,Not established,XAI + external validation + statistical comparison,Medium-High
+7,Conformal fairness foundation model,2025,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Fairness + uncertainty + multi-dataset evaluation,High
+8,Unified ARP-ViT-CNN,2025,Yes,Yes,Yes,No,No,No,No,No,Not established,Not established,Integrated segmentation + CNN + ViT,High
+9,CNN-Transformer skin lesion classification,2026,No,Yes,Yes,No,No,No,Yes,Not established,Not established,Not established,Recent CNN-Transformer classification,High
+10,Skin tone bias segmentation study,2024,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,Fairness + segmentation,Medium
+11,Foundation-model clinical dermatology study,2025,No,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Large-scale external validation + statistics,High
+12,Fairness systematic review/meta-analysis,2025,No,No,No,No,Yes,No,Yes,Yes,Yes,No,Clinical evidence for fairness/generalizability gap,Medium
+13,Uncertainty/OOD skin lesion study,2024,No,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,UQ + OOD evaluation,Medium-High
+14,XAI + clinical dermatologist evaluation,2025,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Clinical XAI validation,High
+15,Recent responsible-AI dermatology review,2026,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Not applicable,Integrated responsible-AI requirements,High

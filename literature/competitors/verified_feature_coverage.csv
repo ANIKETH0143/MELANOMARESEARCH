@@ -1,0 +1,11 @@
+Feature,Competitor_Count,Total_Competitors,Coverage_Percent
+Segmentation,3,15,20.0
+CNN,12,15,80.0
+Transformer,10,15,66.7
+XAI,4,15,26.7
+Fairness,3,15,20.0
+Uncertainty,4,15,26.7
+Three_Datasets,11,15,73.3
+External_Validation,6,15,40.0
+Statistical_Testing,6,15,40.0
+Ablation,10,15,66.7

@@ -1,0 +1,14 @@
+Dataset,HAM10000
+Primary_Fairness_Subgroup,Sex
+Sex_Groups,male;female
+Unknown_Sex_Handling,Exclude from subgroup gap calculation but retain for overall evaluation
+Secondary_Fairness_Subgroup,Age_Group
+Age_Groups,0-39;40-59;60-85
+Missing_Age_Handling,Exclude from age subgroup gap calculation but retain for overall evaluation
+ISIC2018_Fairness,Not performed due to unavailable demographic metadata in current splits
+PH2_Fairness,Not performed due to unavailable demographic metadata in current splits
+Primary_Fairness_Metrics,Sensitivity;Specificity;FPR;FNR;F1;ROC-AUC
+Primary_Gap_Metrics,Maximum subgroup gap for Sensitivity;Specificity;FPR;FNR;F1;ROC-AUC
+Fairness_Training,HAM10000 only using available subgroup metadata
+No_Manual_Labels,True
+No_Skin_Tone_Claim,True

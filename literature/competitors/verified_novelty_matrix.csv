@@ -1,0 +1,16 @@
+Rank,Paper,Year,Segmentation,CNN,Transformer,XAI,Fairness,Uncertainty,Three_Datasets,External_Validation,Statistical_Testing,Ablation,Direct_Competitor,Verification_Status
+1,VGG19-RSPDA-ViT,2025,No,Yes,Yes,Yes,No,No,Yes,No,Not established,Yes,Yes,Verified
+2,CTH-Net,2024,Yes,Yes,Yes,No,No,No,Yes,No,Not established,Yes,No,Verified
+3,Hybrid ViT-GNN with region-adaptive attention,2026,No,Partial,Yes,Not established,Not established,Not established,Yes,Not established,Not established,Not established,Yes,Verified
+4,Semi-supervised GAN hybrid melanoma detection,2025,No,Yes,Partial,No,No,Not established,Yes,Yes,Not established,Yes,Yes,Verified
+5,MultiExCam,2025,No,Yes,Partial,Yes,Not established,Not established,Yes,Not established,Not established,Yes,Yes,Verified
+6,Conformal fairness foundation model,2025,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Verified
+7,Swin evidential uncertainty triage,2026,No,No,Yes,No,Not primary focus,Yes,No,No,Yes,Yes,Yes,Verified
+8,ResNet-50 fuzzy cognitive explainable framework,2026,No,Yes,No,Yes,Not primary focus,Yes,Yes,Not established,Not established,Not established,Yes,Verified
+9,Prune-learning skin-tone fairness,2026,No,Yes,Yes,Not established,Yes,Not established,Not established,Not established,Not established,Not established,Yes,Verified
+10,HSPF-Net,2026,Yes,Yes,Yes,No,No,No,Yes,Not established,Not established,Not established,No,Verified
+11,Foundation-model clinical dermatology study,2025,No,Yes,Yes,Not established,Not established,Not established,Yes,Yes,Yes,Yes,Yes,Verified
+12,XAI clinical dermatologist evaluation,2025,No,Yes,Yes,Yes,No,No,Not established,Yes,Yes,Yes,Yes,Verified
+13,Uncertainty/OOD skin lesion study,2024,No,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Verified
+14,Skin-tone bias segmentation study,2024,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,No,Verified
+15,Transformer-based foundation learning skin disease imaging,2026,No,Yes,Yes,Not established,Not established,Not established,Multiple,Not established,Not established,Not established,Yes,Verified

@@ -1,0 +1,14 @@
+Component,Definition
+Fairness_Surrogate,Absolute difference in mean predicted melanoma probability between male and female HAM10000 samples
+Formula,L_fair = abs(mean(p_MEL | male) - mean(p_MEL | female))
+Differentiable,True
+Base_Loss,Weighted multi-class cross-entropy
+Total_Loss,L_total = L_weighted_CE + lambda_fair * L_fair
+Primary_Subgroups,male;female
+Lambda_Fair_Candidates,0.001;0.005;0.01
+Lambda_Selection,Validation set only
+Selection_Criteria,Validation macro-F1 with fairness-gap monitoring
+Test_Set_Tuning,Forbidden
+Sensitivity,FNR,FPR,Specificity,Post-hoc evaluation metrics only
+Interpretation,Surrogate reduces predicted-probability disparity and does not directly guarantee equal sensitivity or FNR
+Age_Fairness,Post-hoc only
